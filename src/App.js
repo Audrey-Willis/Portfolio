@@ -4,7 +4,7 @@ import Header from "./components/Header/Header";
 import About from "./components/About/About";
 import Experience from "./components/Experience/Experience";
 import Resume from "./components/Resume/Resume";
-import TitlePage from "./components/TitlePage/TitlePage.js";
+import TitlePage from "./components/Title-Page/TitlePage";
 import Footer from "./components/Footer/Footer";
 import Projects from "./components/Projects/Projects";
 
