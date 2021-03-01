@@ -5,14 +5,14 @@ import About from "./components/About/About";
 import Experience from "./components/Experience/Experience";
 import Projects from "./components/Projects/Projects";
 import Resume from "./components/Resume/Resume";
-import LandingPage from "./components/landingPage/LandingPage.js";
+import TitlePage from "./components/TitlePage/TitlePage.js";
 import Footer from "./components/Footer/Footer";
 
 function App() {
   return (
   <BrowserRouter>
   <Header/>
-    <Route exact path = "/"component = {LandingPage}/>
+    <Route exact path = "/"component = {TitlePage}/>
     <Route path = "/About" component = {About}/>
     <Route path = "/Experience" component = {Experience}/>
     <Route Path = "/Projects" component = {Projects}/>
