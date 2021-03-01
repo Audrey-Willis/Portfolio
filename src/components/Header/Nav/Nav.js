@@ -7,7 +7,7 @@ function Nav(){
             <Link to = "/">Title-Page</Link>
             <Link to = "/About">ABout-Me</Link>
             <Link to = "/Experience">Experience</Link>
-            <h1>Audrey Willis</h1>
+            <h1>Audrey</h1>
             <Link to = "/Projects">Projects</Link>
             <Link to = "/Resume">Resume</Link>
             <Link to = "./Contact">Contact</Link>
