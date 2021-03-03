@@ -1,6 +1,8 @@
 import React from "react";
+import {AboutStyle} from "./AboutStyle";
 
-function About(){
+
+function About(
     return(
         <div>
             <div className = "about">
