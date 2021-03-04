@@ -44,7 +44,7 @@ export const AboutStyle = styled.div`
     color: black;
   }
   .arrow:hover {
-    transform: (1.1);
+    font-size:3.2rem;
   }
   .arrow:active {
     color: black;

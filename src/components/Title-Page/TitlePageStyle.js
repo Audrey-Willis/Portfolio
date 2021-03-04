@@ -8,7 +8,6 @@ export const TitlePageStyle = styled.div`
   .title-page {
     display: flex;
     background-image: url("https://i.ibb.co/hsSWbSt/shutterstock-1405359335.png");
-    height: 70vh;
     padding: 2%;
     border: 10px double #333;
   }
@@ -36,7 +35,7 @@ export const TitlePageStyle = styled.div`
     color:black
   }
   .arrow:hover{
-    transform:(1.1);
+    font-size:4.2rem;
   }
   .arrow:active{
     color:black;
