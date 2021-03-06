@@ -7,10 +7,6 @@ function About(){
     return (
       <AboutStyle>
         <div className="about rotate-in-center">
-          <div className="about-header">
-            <p className="wobble-hor-bottom">🎉Drum Roll Please🎉</p>
-            <p className="wobble-hor-bottom">🎉Cue the applause🎉</p>
-          </div>
           <div className="about-p">
             <h1>Welcome!</h1>
             <p>
