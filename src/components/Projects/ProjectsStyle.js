@@ -18,17 +18,17 @@ export const StyledProjects = styled.div`
     width: 100%;
     display: flex;
     flex-direction: column;
-    align-items:center;
+    align-items: center;
   }
   .project {
     border: 5px double black;
     width: 25%;
     background-image: url("https://i.ibb.co/fHypgdZ/shutterstock-1734562214.jpg");
     display: flex;
-    flex-direction:column;
-    align-items:center;
-    padding:2%;
-    text-align:center;
+    flex-direction: column;
+    align-items: center;
+    padding: 2%;
+    text-align: center;
   }
   .project-main-content {
     display: flex;
@@ -39,21 +39,21 @@ export const StyledProjects = styled.div`
     width: 95%;
     border: 2px solid black;
     padding: 3%;
-    background-color:pink;
-    height:25vh;
+    background-color: pink;
+    height: 25vh;
   }
-  .project-links{
-    width:90%;
-    display:flex;
-    justify-content:space-around;
+  .project-links {
+    width: 90%;
+    display: flex;
+    justify-content: space-around;
   }
-  .project-links a{
-    margin:2%;
-    color:black;
-    text-decoration:none;
+  .project-links a {
+    margin: 2%;
+    color: black;
+    text-decoration: none;
   }
-  .project-links a:active{
-    color:black;
+  .project-links a:active {
+    color: black;
   }
   .projects-bottom {
     display: flex;
