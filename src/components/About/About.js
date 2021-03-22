@@ -5,10 +5,10 @@ import{Link} from "react-router-dom"
 
 function About(){
     return (
-      <AboutStyle>
+      <AboutStyle id = "about">
         <div className="about rotate-in-center">
           <div className="about-p">
-            <h1>Welcome!</h1>
+            <h1>Who am I?</h1>
             <p>
               My name is Audrey Willis. I'm a semi-young woman living in eastern
               Tennessee with my fiance and three great danes. I love challenges
@@ -22,7 +22,6 @@ function About(){
               the day before.
             </p>
           </div>
-          <Link to="/Experience" className = "arrow">&#8595;</Link>
         </div>
       </AboutStyle>
     );

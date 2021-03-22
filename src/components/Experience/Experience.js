@@ -1,15 +1,15 @@
 import React from "react";
 import {ExperienceStyle} from "./ExperienceStyle";
-import {Link} from "react-router-dom";
 
 function Experience(){
     return (
-      <ExperienceStyle>
-        <div className="experience bounce-in-top">
+      <ExperienceStyle id = "experience">
+        <div className = "experience">
+          <h1> My <span>Experience</span>-Education and Skills<span>:</span></h1>
           <div className="education">
-            <h2>Education</h2>
+            <h2><span>Education</span></h2>
             <div className="education-section">
-              <div className="lambda-education">
+              <div className="lambda-education experience-item">
                 <h3>Lambda School</h3>
                 <h4> Nine month program</h4>
                 <p>
@@ -23,7 +23,7 @@ function Experience(){
                 </p>
               </div>
 
-              <div className="front-end-masters-education">
+              <div className="front-end-masters-education experience-item">
                 <h3>Frontend Masters</h3>
                 <h4> Various mini coding classes</h4>
                 <p>
@@ -51,7 +51,7 @@ function Experience(){
                 </ul>
               </div>
 
-              <div className="free-code-camp-education">
+              <div className="free-code-camp-education experience-item">
                 <h3>FreeCodeCamp</h3>
                 <h4>Mini coding classes</h4>
                 <p>Responsive web design certification(300 hours)</p>
@@ -66,24 +66,13 @@ function Experience(){
                   <li>CSS Grid</li>
                 </ul>
               </div>
-
-              <div className="coding-challenges-education">
-                <h3>Coding Challenges</h3>
-                <h4>Daily practice</h4>
-                <p>
-                  I use Code Wars and Edabit to get at least two hours of
-                  practice daily.{" "}
-                </p>
               </div>
-            </div>
-            <div className="arrow">
-              <a href="#skills">&#8595;</a>
-            </div>
-          </div>
+              </div>
           <div id="skills" className="skills">
-            <h2>Skills</h2>
+           
+            <h2><span>Skills</span></h2>
             <div className="skills-section">
-              <div className="front-end-skills">
+              <div className="front-end-skills experience-item">
                 <h3>Front End Skills</h3>
                 <ul>
                   <li>HTML5</li>
@@ -94,26 +83,21 @@ function Experience(){
                   <li>JS</li>
                   <li>Responsive Design</li>
                   <li>Accessibility</li>
-                  <li>Sass/Less</li>
-                  <li>
-                    Testing/Debugging (Cypress, React Testing Library, Jasmine)
-                  </li>
                 </ul>
               </div>
 
-              <div className="other-skills">
+              <div className="other-skills experience-item">
                 <h3>Other</h3>
                 <ul>
                   <li>Git</li>
                   <li>Node/Npm</li>
-                  <li>Yarn</li>
                   <li>Developer Tools</li>
                   <li>Web performance/optimization</li>
                   <li>Api Requests</li>
                 </ul>
               </div>
 
-              <div className="soft-skills">
+              <div className="soft-skills experience-item">
                 <h3>Soft Skills</h3>
                 <ul>
                   <li>Team player </li>
@@ -128,9 +112,8 @@ function Experience(){
                 </ul>
               </div>
             </div>
-            <Link to="/Projects" className="arrow">&#8595; </Link>
           </div>
-        </div>
+          </div>
       </ExperienceStyle>
     );
 }

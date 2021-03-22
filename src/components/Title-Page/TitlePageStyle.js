@@ -1,55 +1,44 @@
 import styled from "styled-components";
 
 export const TitlePageStyle = styled.div`
-  padding: 3%;
-  background-color: #e0bbe4;
   font-family: "Gloria Hallelujah", cursive;
-
+  width:98%;
+  display:flex;
+  flex-direction:column;
+  align-items:center;
+  color:black;
+  text-shadow:.8px .8px white;
   .title-page {
     display: flex;
-    background-image: url("https://i.ibb.co/hsSWbSt/shutterstock-1405359335.png");
-    padding: 2%;
-    border: 10px double #333;
+    justify-content: space-between;
+    width:60%;
+  }
+  .title-text h1 {
+    font-size: 1.5rem;
+    margin: none;
+  }
+  .title-text h2 {
+    font-size: 1.3rem;
+  }
+  .title-text blockquote {
+    font-size: 1rem;
+  }
+  .graphic img {
+    width: 10%;
   }
   .title-text {
     text-align: center;
-  }
-  .title-text h1 {
-    font-size: 3rem;
-  }
-  .title-text h2 {
-    font-size: 2rem;
-  }
-  .title-text blockquote {
-    font-size: 1.1rem;
-  }
-  .comp-icon {
-    text-align: center;
-  }
-  .comp-icon img {
-    height: 60vh;
-  }
-  .arrow{
-    font-size:4rem;
-    text-decoration:none;
-    color:black
-  }
-  .arrow:hover{
-    font-size:4.2rem;
-  }
-  .arrow:active{
-    color:black;
-  }
-  .jello-horizontal-text{
-    animation text-bubble 5s both;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
   }
   .jello-horizontal-hover:active {
     animation: jello-horizontal-hover 0.6s both;
   }
   .jello-horizontal {
-    -webkit-animation: jello-horizontal 0.6s both;
     animation: jello-horizontal 0.9s both;
   }
+
   @keyframes jello-horizontal {
     0% {
       -webkit-transform: scale3d(1, 1, 1);
@@ -110,6 +99,5 @@ export const TitlePageStyle = styled.div`
       transform: scale3d(1, 1, 1);
     }
   }
-
 `;
 

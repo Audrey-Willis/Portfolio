@@ -3,28 +3,30 @@ import {StyledProjects} from "./ProjectsStyle"
 
 function Projects(){
     return (
-      <StyledProjects>
-          <section className="projects">
-            <h1>Projects</h1>
-              <div className = "projects-top">
-              <div className="project">
-                <div className = "essentialism-project">
+      <StyledProjects id="projects">
+        <section className="projects">
+          <h1>Projects</h1>
+          <div className="projects-top">
+            <div className="project">
+              <div className="title-and-links">
+                <div className="project-links">
+                  <a href="https://essentialism-1-lambda.github.io/Marketing/">
+                    Live Site
+                  </a>
                   <h2>Essentialisim</h2>
-                  <div className = "project-img">
+                  <a href="https://github.com/Essentialism-1-Lambda/Marketing">
+                    Github Repo
+                  </a>
+                </div>
+              </div>
+              <div className="image-and-text">
+                <div className="project-img">
                   <img
                     src="https://i.ibb.co/r0BtncQ/ezgif-com-gif-maker.gif"
                     alt="site video"
                   />
-                  </div>
-                  <div className = "project-links">
-                  <a href="https://essentialism-1-lambda.github.io/Marketing/">
-                    Live Site
-                  </a>
-                  <a href="https://github.com/Essentialism-1-Lambda/Marketing">
-                    Github Repo
-                  </a>
-                  </div>
-                  <div className = "project-text">
+                </div>
+                <div className="project-text">
                   <div className="about">
                     <h3>About:</h3>
                     <p>
@@ -51,26 +53,27 @@ function Projects(){
                     <h3>Used:</h3>
                     <p>the site it static, HTML, CSS, JS only </p>
                   </div>
-                  </div>
                 </div>
-                <div>
-                  </div>
-                </div>
+              </div>
+            </div>
 
-              <div className = "project">
-                <div className="react-plants-project">
+            <div className="project">
+              <div className="title-and-links">
+                <div className="project-links">
                   <h2>React Plants</h2>
-                  <div className = "project-image">
+                  <a href="https://github.com/Audrey-Willis web-sprint-challenge-advanced-react">
+                    Github Repo
+                  </a>
+                </div>
+              </div>
+              <div className="image-and-text">
+                <div className="project-image">
                   <img
                     src="https://i.ibb.co/X3SYqgK/ezgif-com-gif-maker-3.gif"
                     alt="site video"
                   />
-                  </div>
-                  <div className = "project-links">
-                  <a href="https://github.com/Audrey-Willis web-sprint-challenge-advanced-react">
-                    Github Repo
-                  </a>
-                  </div>
+                </div>
+                <div className="project-text">
                   <div className="about">
                     <h3>About:</h3>
                     <p>
@@ -99,24 +102,28 @@ function Projects(){
                   </div>
                 </div>
               </div>
+            </div>
 
-              <div className = "project">
-                <div className="rick-and-morty-project">
+            <div className="project">
+              <div className="title-and-links">
+                <div className="project-links">
+                  <a href="https://audrey-willis.github.io/rick-and-morty/">
+                    Live Site
+                  </a>
                   <h2>Rick and Morty</h2>
-                  <div className = "project-img">
+                  <a href="https://github.com/Audrey-Willis/rick-and-morty">
+                    Github Repo
+                  </a>
+                </div>
+              </div>
+              <div className="image-and-text">
+                <div className="project-img">
                   <img
                     src="https://i.ibb.co/JQ86w01/ezgif-com-gif-maker-2.gif"
                     alt="site video"
                   />
-                  </div>
-                  <div className = "project-links">
-                  <a href="https://audrey-willis.github.io/rick-and-morty/">
-                    Live Site
-                  </a>
-                  <a href="https://github.com/Audrey-Willis/rick-and-morty">
-                    Github Repo
-                  </a>
-                  </div>
+                </div>
+                <div className="project-text">
                   <div className="about">
                     <h3>About:</h3>
                     <p>
@@ -141,26 +148,30 @@ function Projects(){
                   </div>
                 </div>
               </div>
-              </div>
-              <div className = "projects-bottom">
+            </div>
+          </div>
 
-              <div className ="project" >
-                <div className="nasa-potd-project">
+          <div className="projects-bottom">
+            <div className="project">
+              <div className="title-and-links">
+                <div className="project-links">
+                  <a href="https://audrey-willis.github.io/nasa-potd/">
+                    Live Site
+                  </a>
                   <h2>Nasa Photo of the Day</h2>
-                  <div className = "project-img">
+                  <a href="https://github.com/Audrey-Willis/nasa-potd">
+                    Github Repo
+                  </a>
+                </div>
+              </div>
+              <div className="image-and-text">
+                <div className="project-img">
                   <img
                     src="https://i.ibb.co/nwtmSWD/ezgif-com-gif-maker-1.gif"
                     alt="site video"
                   />
-                  </div>
-                  <div className = "project-links">
-                  <a href="https://audrey-willis.github.io/nasa-potd/">
-                    Live Site
-                  </a>
-                  <a href="https://github.com/Audrey-Willis/nasa-potd">
-                    Github Repo
-                  </a>
-                  </div>
+                </div>
+                <div className="project-text">
                   <div className="about">
                     <h3>About:</h3>
                     <p>
@@ -183,21 +194,25 @@ function Projects(){
                   </div>
                 </div>
               </div>
-              <div className = "project">
-                <div className="Redux car-customization-project">
+            </div>
+            <div className="project">
+              <div className="title-and-links">
+                <div className="project-links">
+                  <a href="#">Live Site</a>
                   <h2>Car Customization Cart</h2>
-                  <div className = "project-img">
+                  <a href="https://github.com/Audrey-Willis/Car-Sales">
+                    Github Repo
+                  </a>
+                </div>
+              </div>
+              <div className="image-and-text">
+                <div className="project-img">
                   <img
                     src="https://i.ibb.co/ggDXpw7/ezgif-com-gif-maker.gif"
                     alt="site-video"
                   />
-                  </div>
-                  <div className = "project-links">
-                  <a href="#">Live Site</a>
-                  <a href="https://github.com/Audrey-Willis/Car-Sales">
-                    Github Repo
-                  </a>
-                  </div>
+                </div>
+                <div className="project-text">
                   <div className="about">
                     <h3>About:</h3>
                     <p>
@@ -216,46 +231,51 @@ function Projects(){
                   </div>
                 </div>
               </div>
-              <div className = "project">
-                <div className="redux-to-do-project">
-                  <h2>Redux To-Do List</h2>
-                  <div className = "project-img">
-                  <img
-                    src="https://i.ibb.co/SNK8gzc/ezgif-com-gif-maker-2.gif"
-                    alt="site-video"
-                  />
-                  </div>
-                  <div className = "project-links">
-                  <a href="https://audrey-willis.github.io/simple-to-do/">
-                    {" "}
-                    Live Site
-                  </a>
-                  <a href="https://github.com/Audrey-Willis/simple-to-do">
-                    {" "}
-                    Github Repo{" "}
-                  </a>
-                  </div>
-                  <div className="about">
-                    <h3>About:</h3>
-                    <p>
-                      A simple to do list. It allows the user to add an item to
-                      the list, click on the item when they've completed it to
-                      cross it out, and press a button to get rid of all crossed
-                      out items to clear up the page.
-                    </p>
-                  </div>
-                  <div className="role">
-                    <h3>Role:</h3>
-                    <p>I built the whole site.</p>
-                  </div>
-                  <div className="used">
-                    <h3>Used:</h3>
-                    <p>The site is React, with Redux as the state manager</p>
-                  </div>
+            </div>
+            <div className="project">
+              <div className = "title-and-links">
+              <div className="project-links">
+                <a href="https://audrey-willis.github.io/simple-to-do/">
+                  {" "}
+                  Live Site
+                </a>
+                <h2>Redux To-Do List</h2>
+                <a href="https://github.com/Audrey-Willis/simple-to-do">
+                  {" "}
+                  Github repo{" "}
+                </a>
                 </div>
               </div>
+              <div className = "image-and-text">
+              <div className="project-img">
+                <img
+                  src="https://i.ibb.co/SNK8gzc/ezgif-com-gif-maker-2.gif"
+                  alt="site-video"
+                />
+              </div>
+              <div className = "project-text">
+              <div className="about">
+                <h3>About:</h3>
+                <p>
+                  A simple to do list. It allows the user to add an item to the
+                  list, click on the item when they've completed it to cross it
+                  out, and press a button to get rid of all crossed out items to
+                  clear up the page.
+                </p>
+              </div>
+              <div className="role">
+                <h3>Role:</h3>
+                <p>I built the whole site.</p>
+              </div>
+              <div className="used">
+                <h3>Used:</h3>
+                <p>The site is React, with Redux as the state manager</p>
+              </div>
             </div>
-          </section>
+          </div>
+          </div>
+          </div>
+        </section>
       </StyledProjects>
     );
 }
