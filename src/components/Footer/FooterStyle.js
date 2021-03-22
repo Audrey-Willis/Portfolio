@@ -4,6 +4,7 @@ export const FooterStyled = styled.div`
   width: 98%;
   .footer-nav a{
     color:lavenderblush;
+    font-size:1.5rem;
   }
   .top-of-page{
     width:98%;
@@ -11,7 +12,7 @@ export const FooterStyled = styled.div`
     margin-bottom:5%;
   }
   .top-of-page a{
-     font-size:1.5rem;
+     font-size:2rem;
      text-decoration:none;
      color:plum;
   }

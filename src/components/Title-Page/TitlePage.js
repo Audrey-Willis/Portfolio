@@ -1,7 +1,5 @@
 import React from "react";
 import {TitlePageStyle} from "./TitlePageStyle";
-import {Link} from "react-router-dom";
-import About from "../About/About";
 
 function TitlePage(){
     return (

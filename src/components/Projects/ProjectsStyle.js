@@ -2,14 +2,15 @@ import styled from "styled-components";
 
 export const StyledProjects = styled.div`
   font-family: "Gloria Hallelujah", cursive;
-  margin:2%;
   display:flex;
   flex-direction:column;
   margin-bottom:15%;
-  width:100%;
+  align-items:center;
+  text-align:center;
+  width:98%;
 
   p{
-    font-size:.8rem;
+    font-size:1.3rem;
   }
   .title-and-links{
     width:98%;
@@ -22,23 +23,29 @@ export const StyledProjects = styled.div`
     display: flex;
     flex-direction: column;
     align-items:center;
-    width:98%;
+    justify-content:center;
+  }
+  .projects-top{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    justify-content:center;
   }
   h1{
     font-size:2.5rem;
     text-decoration:underline;
   }
   h2{
-    font-size:1.3rem;
+    font-size:2rem;
   }
    h2,h3{
     color:lightblue;
   }
   h3{
-    font-size:1rem;
+    font-size:1.5rem;
   }
   .project-text{
-    width:60%;
+    width:50%;
   }
   .project {
     border-top: 5px double pink;
@@ -56,16 +63,18 @@ export const StyledProjects = styled.div`
   .image-and-text{
     display:flex;
     align-items:center;
+    justify-content:space-between;
   }
   .project-main-content {
     display: flex;
     font-size: 0.9rem;
   }
   .project img {
-   width:90%;
+   width:98%;
+   height:50vh;
   }
   .project-links {
-    width: 90%;
+    width: 98%;
     display: flex;
     justify-content: space-around;
     text-align:center;
@@ -74,6 +83,8 @@ export const StyledProjects = styled.div`
     margin: 2%;
     color:plum;
     text-decoration: none;
+    margin-bottom:5%;
+    font-size:2rem;
   }
   .project-links a:active {
     color: black;

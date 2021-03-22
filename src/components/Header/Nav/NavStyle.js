@@ -10,6 +10,7 @@ with:90%;
 a{
     color:#333;
     text-decoration:none;
+    font-size:1.3rem;
 }
 a:hover{
     transform:scale(1.1);

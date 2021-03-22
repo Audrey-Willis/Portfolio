@@ -16,22 +16,24 @@ width:90%;
     height:50vh;
     align-items:center;
     justify-content:space-around;
-    width:40%;
-    padding:2%;
+    width:60%;
+    padding:5%;
 }
 .links{
     display:flex;
     flex-direction:column;
+    justify-content:space-between;
     width:80%;
 }
 .links a{
     color:lightblue;
     text-decoration:none;
-    font-size:1.5rem;
+    font-size:2rem;
     text-align:center;
     border:5px double plum;
     width:100%;
-    margin-bottom:10%;
+    padding:1%;
+    margin:2%;
 }
 .links a:hover{
     transform:scale(1.1);
@@ -39,5 +41,6 @@ width:90%;
 }
 h1{
     color:pink;
+    font-size:2.5rem;
 }
 `

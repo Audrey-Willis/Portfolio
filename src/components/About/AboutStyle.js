@@ -17,7 +17,7 @@ export const AboutStyle = styled.div`
     justify-content:center;
   }
   .about-p {
-    width: 80%;
+    width: 90%;
     font-size: 0.9rem;
     display: flex;
     flex-direction: column;
@@ -25,17 +25,19 @@ export const AboutStyle = styled.div`
     justify-content: center;
     border-radius:50%;
     text-align:center;
-    padding:6%;
+    padding:10%;
     border:top:10px double lightblue;
     border-left:10px double lightblue;
     border-bottom:10px double pink;
     border-right:10px double pink;
   }
   .about-p p {
-    font-size:.8rem;
+    font-size:1.3rem;
   }
   .about-p h1 {
     text-align: center;
+    color:lightblue;
+    font-size:2rem;
   }
   .about-header {
     display: flex;

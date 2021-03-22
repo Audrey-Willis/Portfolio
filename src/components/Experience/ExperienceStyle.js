@@ -14,6 +14,7 @@ h1{
   text-align:center;
   margin-bottom:10%;
   text-decoration:underline;
+  font-size:3rem;
 }
 span{
   color:lightblue;
@@ -47,18 +48,21 @@ span{
     margin-bottom:10%;
   }
   .experience-item h3 {
-    font-size: 0.9rem;
+    font-size: 1.5rem;
     color:lightblue;
   }
   .experience-item p {
-    font-size: 0.8rem;
+    font-size: 1.2rem;
     color:lightblue;
   }
   .experience-item h4 {
-    font-size: 0.8rem;
+    font-size: 1.3rem;
   }
   .experience-item li {
-    font-size: 0.8rem;
+    font-size: 1.2rem;
+  }
+  h2{
+    font-size:2.5rem;
   }
   .skills {
     display: flex;

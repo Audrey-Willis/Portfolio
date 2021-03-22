@@ -14,14 +14,14 @@ export const TitlePageStyle = styled.div`
     width:60%;
   }
   .title-text h1 {
-    font-size: 1.5rem;
+    font-size:3.5rem;
     margin: none;
   }
   .title-text h2 {
-    font-size: 1.3rem;
+    font-size: 2.3rem;
   }
   .title-text blockquote {
-    font-size: 1rem;
+    font-size: 1.6rem;
   }
   .graphic img {
     width: 10%;
