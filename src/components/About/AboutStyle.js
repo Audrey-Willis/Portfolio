@@ -18,7 +18,6 @@ export const AboutStyle = styled.div`
   }
   .about-p {
     width: 90%;
-    font-size: 0.9rem;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -32,7 +31,7 @@ export const AboutStyle = styled.div`
     border-right:10px double pink;
   }
   .about-p p {
-    font-size:1.3rem;
+    font-size:1.2rem;
   }
   .about-p h1 {
     text-align: center;
@@ -46,5 +45,27 @@ export const AboutStyle = styled.div`
   }
   .about-header p {
     background-color: pink;
+  }
+  @media (max-width:800px){
+    .about-p p{
+      font-size:1rem;
+    }
+  }
+  .about-p{
+    padding:8%;
+  }
+  @media(max-width:500px){
+    .about-p{
+      border:none;
+    }
+    .about-p p{
+      font-size:.9rem;
+    }
+  }
+  @media(max-width:500px){
+    margin-top:20%;
+    .about-p h1{
+      font-size:1rem;
+    }
   }
 `;

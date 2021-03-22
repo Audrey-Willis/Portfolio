@@ -6,7 +6,7 @@ import{Link} from "react-router-dom"
 function About(){
     return (
       <AboutStyle id = "about">
-        <div className="about rotate-in-center">
+        <div className="about">
           <div className="about-p">
             <h1>Who am I?</h1>
             <p>

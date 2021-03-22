@@ -43,4 +43,31 @@ h1{
     color:pink;
     font-size:2.5rem;
 }
+@media(max-width:800px){
+    h1{
+        font-size:2rem;
+    }
+    .links a{
+        font-size:1.5rem;
+    }
+}
+
+@media(max-width:500px){
+.contact-box{
+    width:98%;
+    padding:none;
+    margin:none;
+    border:none;
+
+}
+.links{
+    width:98%;
+    align-items:center;
+}
+.contact-box a{
+    width:98%;
+    font-size:1rem;
+}
+}
+
 `

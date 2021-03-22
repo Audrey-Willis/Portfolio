@@ -15,5 +15,17 @@ a{
 a:hover{
     transform:scale(1.1);
 }
+@media(max-width:500px){
+    flex-direction:column;
+    align-items:center;
+    text-align:center;
+a{
+    font-size:1rem;
+    color:lavenderblush;
+    margin:3%;
+    border:1px double pink;
+    width:90%;
+}
+}
 
 `

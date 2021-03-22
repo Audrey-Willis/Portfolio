@@ -2,14 +2,22 @@ import styled from "styled-components";
 
 export const FooterStyled = styled.div`
   width: 98%;
+  display:flex;
+  flex-direction:column;
+  align-items:center;
+  .footer-nav{
+    width:98%;
+    text-align:center;
+  }
   .footer-nav a{
     color:lavenderblush;
     font-size:1.5rem;
+    width:20%;
   }
   .top-of-page{
     width:98%;
+    margin-bottom:10%;
     text-align:center;
-    margin-bottom:5%;
   }
   .top-of-page a{
      font-size:2rem;
@@ -22,5 +30,14 @@ export const FooterStyled = styled.div`
   }
   .top-of-page a:hover{
     color:lightblue;
+  }
+  @media(max-width:500px){
+    .top-of-page a{
+      font-size:1.2rem;
+    }
+    .footer-nav a{
+      font-size:1rem;
+      width:90%;
+    }
   }
 `;
