@@ -7,24 +7,20 @@ function Projects(){
         <section className="projects">
           <h1>Projects</h1>
           <div className="projects-top">
+            {/* Essentialism 1/6 */}
             <div className="project">
               <div className="title-and-links">
+                <h2>Essentialisim</h2>
                 <div className="project-links">
-                  <a href="https://essentialism-1-lambda.github.io/Marketing/">
-                    Live Site
-                  </a>
-                  <h2>Essentialisim</h2>
-                  <a href="https://github.com/Essentialism-1-Lambda/Marketing">
-                    Github Repo
-                  </a>
+                  <a href="https://essentialism-1-lambda.github.io/Marketing/">Live Site</a>
+                  <a href="https://github.com/Essentialism-1-Lambda/Marketing">Github Repo</a>
                 </div>
               </div>
               <div className="image-and-text">
                 <div className="project-img">
-                  <img
-                    src="https://i.ibb.co/r0BtncQ/ezgif-com-gif-maker.gif"
-                    alt="site video"
-                  />
+                  <video controls>
+                    <source src="https://res.cloudinary.com/dcninbtqv/video/upload/v1616454567/simplescreenrecorder_ovvuns.webm"/>
+                  </video>
                 </div>
                 <div className="project-text">
                   <div className="about">
@@ -56,22 +52,19 @@ function Projects(){
                 </div>
               </div>
             </div>
-
+            {/* Plants 2/6 */}
             <div className="project">
               <div className="title-and-links">
-                <div className="project-links">
-                  <h2>React Plants</h2>
-                  <a href="https://github.com/Audrey-Willis web-sprint-challenge-advanced-react">
-                    Github Repo
-                  </a>
+                <h2>React Plants</h2>
+                <div className="project-links no-live-site">
+                  <a href="https://github.com/Audrey-Willis web-sprint-challenge-advanced-react">Github Repo</a>
                 </div>
               </div>
               <div className="image-and-text">
-                <div className="project-image">
-                  <img
-                    src="https://i.ibb.co/X3SYqgK/ezgif-com-gif-maker-3.gif"
-                    alt="site video"
-                  />
+                <div className="project-img">
+                  <video controls>
+                    <source src="https://res.cloudinary.com/dcninbtqv/video/upload/v1616530526/ezgif.com-gif-maker_3_ccrg9m.webm" />
+                  </video>
                 </div>
                 <div className="project-text">
                   <div className="about">
@@ -103,25 +96,20 @@ function Projects(){
                 </div>
               </div>
             </div>
-
+            {/* Rick and Morty 3/6 */}
             <div className="project">
               <div className="title-and-links">
+                <h2>Rick and Morty</h2>
                 <div className="project-links">
-                  <a href="https://audrey-willis.github.io/rick-and-morty/">
-                    Live Site
-                  </a>
-                  <h2>Rick and Morty</h2>
-                  <a href="https://github.com/Audrey-Willis/rick-and-morty">
-                    Github Repo
-                  </a>
+                  <a href="https://audrey-willis.github.io/rick-and-morty/">Live Site</a>
+                  <a href="https://github.com/Audrey-Willis/rick-and-morty">Github Repo</a>
                 </div>
               </div>
               <div className="image-and-text">
                 <div className="project-img">
-                  <img
-                    src="https://i.ibb.co/JQ86w01/ezgif-com-gif-maker-2.gif"
-                    alt="site video"
-                  />
+                  <video controls>
+                    <source src="https://res.cloudinary.com/dcninbtqv/video/upload/v1616530275/ezgif.com-gif-maker_2_voychx.webm" />
+                  </video>
                 </div>
                 <div className="project-text">
                   <div className="about">
@@ -152,24 +140,20 @@ function Projects(){
           </div>
 
           <div className="projects-bottom">
+            {/* Nasa Project 4/6 */}
             <div className="project">
               <div className="title-and-links">
+                <h2>Nasa Photo of the Day</h2>
                 <div className="project-links">
-                  <a href="https://audrey-willis.github.io/nasa-potd/">
-                    Live Site
-                  </a>
-                  <h2>Nasa Photo of the Day</h2>
-                  <a href="https://github.com/Audrey-Willis/nasa-potd">
-                    Github Repo
-                  </a>
+                  <a href="https://audrey-willis.github.io/nasa-potd/">Live Site</a>
+                  <a href="https://github.com/Audrey-Willis/nasa-potd">Github Repo</a>
                 </div>
               </div>
               <div className="image-and-text">
                 <div className="project-img">
-                  <img
-                    src="https://i.ibb.co/nwtmSWD/ezgif-com-gif-maker-1.gif"
-                    alt="site video"
-                  />
+                  <video controls>
+                    <source src="https://res.cloudinary.com/dcninbtqv/video/upload/v1616455008/ezgif.com-gif-maker_1_iojbdg.webm"/>
+                  </video>
                 </div>
                 <div className="project-text">
                   <div className="about">
@@ -196,21 +180,18 @@ function Projects(){
               </div>
             </div>
             <div className="project">
+              {/* Custom Car Project 5/6*/}
               <div className="title-and-links">
-                <div className="project-links">
-                  <a href="#">Live Site</a>
-                  <h2>Car Customization Cart</h2>
-                  <a href="https://github.com/Audrey-Willis/Car-Sales">
-                    Github Repo
-                  </a>
+                <h2>Car Customization</h2>
+                <div className="project-links no-live-site">
+                  <a href="https://github.com/Audrey-Willis/Car-Sales">Github Repo</a>
                 </div>
               </div>
               <div className="image-and-text">
                 <div className="project-img">
-                  <img
-                    src="https://i.ibb.co/ggDXpw7/ezgif-com-gif-maker.gif"
-                    alt="site-video"
-                  />
+                  <video controls>
+                    <source src = "https://res.cloudinary.com/dcninbtqv/video/upload/v1616534005/Screencast_2020-12-18_20_59_20_p7vq0k.webm"/>
+                  </video>
                 </div>
                 <div className="project-text">
                   <div className="about">
@@ -233,47 +214,41 @@ function Projects(){
               </div>
             </div>
             <div className="project">
-              <div className = "title-and-links">
-              <div className="project-links">
-                <a href="https://audrey-willis.github.io/simple-to-do/">
-                  {" "}
-                  Live Site
-                </a>
-                <h2>Redux To-Do List</h2>
-                <a href="https://github.com/Audrey-Willis/simple-to-do">
-                  {" "}
-                  Github repo{" "}
-                </a>
+              {/* To-Do List 6/6 */}
+              <div className="title-and-links">
+                <h2>To Do List</h2>
+                <div className="project-links">
+                  <a href="https://audrey-willis.github.io/simple-to-do/">Live Site</a>
+                  <a href="https://github.com/Audrey-Willis/simple-to-do">Github repo</a>
                 </div>
               </div>
-              <div className = "image-and-text">
-              <div className="project-img">
-                <img
-                  src="https://i.ibb.co/SNK8gzc/ezgif-com-gif-maker-2.gif"
-                  alt="site-video"
-                />
-              </div>
-              <div className = "project-text">
-              <div className="about">
-                <h3>About:</h3>
-                <p>
-                  A simple to do list. It allows the user to add an item to the
-                  list, click on the item when they've completed it to cross it
-                  out, and press a button to get rid of all crossed out items to
-                  clear up the page.
-                </p>
-              </div>
-              <div className="role">
-                <h3>Role:</h3>
-                <p>I built the whole site.</p>
-              </div>
-              <div className="used">
-                <h3>Used:</h3>
-                <p>The site is React, with Redux as the state manager</p>
+              <div className="image-and-text">
+                <div className="project-img">
+                  <video controls>
+                    <source src = "https://res.cloudinary.com/dcninbtqv/video/upload/v1616534204/Screencast_2020-12-18_21_18_35_rmyp9c.webm"/>
+                  </video>
+                </div>
+                <div className="project-text">
+                  <div className="about">
+                    <h3>About:</h3>
+                    <p>
+                      A simple to do list. It allows the user to add an item to
+                      the list, click on the item when they've completed it to
+                      cross it out, and press a button to get rid of all crossed
+                      out items to clear up the page.
+                    </p>
+                  </div>
+                  <div className="role">
+                    <h3>Role:</h3>
+                    <p>I built the whole site.</p>
+                  </div>
+                  <div className="used">
+                    <h3>Used:</h3>
+                    <p>The site is React, with Redux as the state manager</p>
+                  </div>
+                </div>
               </div>
             </div>
-          </div>
-          </div>
           </div>
         </section>
       </StyledProjects>

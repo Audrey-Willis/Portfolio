@@ -1,23 +1,17 @@
 import styled from "styled-components";
 
 export const StyledProjects = styled.div`
-  font-family: "Gloria Hallelujah", cursive;
-  display: flex;
-  flex-direction: column;
-  margin-bottom: 15%;
-  align-items: center;
-  text-align: center;
-  width: 98%;
-
-  p {
-    font-size: 1.3rem;
-  }
-  .title-and-links {
-    width: 98%;
+    font-family: "Gloria Hallelujah", cursive;
     display: flex;
-    justify-content: space-around;
+    flex-direction: column;
+    margin-bottom: 15%;
     align-items: center;
-    margin-bottom: 3%;
+    text-align: center;
+    width: 98%;
+  h1 {
+    font-size: 2.5rem;
+    text-decoration: underline;
+    margin-bottom: 15%;
   }
   .projects {
     display: flex;
@@ -31,29 +25,11 @@ export const StyledProjects = styled.div`
     align-items: center;
     justify-content: center;
   }
-  .projects-bottom{
-    display:flex;
-    flex-direction:column;
-    align-items:center;
-    justify-content:center;
-  }
-  h1 {
-    font-size: 2.5rem;
-    text-decoration: underline;
-  }
-  h2 {
-    font-size: 2rem;
-  }
-  h2,
-  h3 {
-    color: lightblue;
-  }
-  h3 {
-    font-size: 1.5rem;
-  }
-  .project-text {
-    width: 80%;
-    margin: 5%;
+  .projects-bottom {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
   }
   .project {
     border-top: 5px double pink;
@@ -65,72 +41,113 @@ export const StyledProjects = styled.div`
     flex-direction: column;
     padding: 3%;
     text-align: center;
-    margin-bottom: 5%;
+    margin-bottom: 10%;
+    align-items: center;
   }
-  .image-and-text {
+  h2 {
+    font-size: 2rem;
+  }
+  h2,
+  h3 {
+    color: lightblue;
+  }
+  h3 {
+    font-size: 1.5rem;
+  }
+  .title-and-links {
+    width: 98%;
     display: flex;
     flex-direction: column;
     align-items: center;
-  }
-  .project img {
-    padding: 2%;
-    background-color: pink;
-    margin: 1%;
+    margin-bottom: 3%;
   }
   .project-links {
     width: 98%;
     display: flex;
     justify-content: space-between;
     text-align: center;
+    margin-bottom:10%;
+  }
+  .no-live-site{
+    flex-direction:column;
+    align-items:center;
   }
   .project-links a {
     margin: 2%;
     color: plum;
     text-decoration: none;
-    margin-bottom: 5%;
-    font-size: 2rem;
+    font-size: 1.5rem;
   }
   .project-links a:active {
     color: black;
     color: lightblue;
   }
+  .image-and-text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 90%;
+  }
+  .project-img {
+    width: 80%;
+  }
+  video {
+    width: 100%;
+    height: auto;
+    border: 2px solid black;
+  }
+  .project-text {
+    width: 80%;
+    margin: 5%;
+  }
+  p {
+    font-size: 1.3rem;
+  }
+  
   @media (max-width: 800px) {
-    p {
-      font-size: 1.4rem;
-    }
-    .project-links a {
-      font-size: 1.5rem;
-    }
-    .project-links h2 {
-      font-size: 1.5rem;
-    }
+  p {
+    font-size: 1.4rem;
   }
-  @media(max-width:500px){
-    .project{
-      width:90%;
-      border:none;
-      margin-bottom:20%;
-    }
-    h1{
-      font-size:1.5rem;
-      margin-bottom:20%;
-    }
-    img{
-      width:90%;
-    }
-    .project-links a{
-      font-size:.9rem;
-    }
-    .project-links h2{
-      font-size:1.3rem;
-    }
-    .projects h3{
-      font-size:1rem;
-    }
-    .project p{
-      font-size:1rem;
-    }
+  .project-links a {
+    font-size: 1.5rem;
   }
-
-
+  .project-links h2 {
+    font-size: 1.5rem;
+  }
+  }
+  
+  @media (max-width: 500px) {
+  .project {
+    width: 90%;
+    border: none;
+    border-bottom:5px double lightblue;
+    margin-bottom: 20%;
+  }
+  h1 {
+    font-size: 1.5rem;
+    margin-bottom: 20%;
+  }
+  .project-img {
+    width: 98%;
+  }
+  video {
+    width: 98%;
+  }
+  .project-links a {
+    font-size: 0.9rem;
+  }
+  .project-links h2 {
+    font-size: 1.3rem;
+  }
+  .projects h3 {
+    font-size: 1rem;
+  }
+  .project p {
+    font-size: 1rem;
+  }
+  h2 {
+    font-size: 1.5rem;
+  }
+  }
 `;

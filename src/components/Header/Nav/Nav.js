@@ -4,16 +4,11 @@ import {NavStyle} from "./NavStyle";
 function Nav(){
     return (
       <NavStyle>
-        <a href="#about">About Me</a>
-        <a href="#experience" className="diff-color">
-          Experience
-        </a>
-        <a href="#projects">Projects</a>
-        <a
-          href="https://drive.google.com/file/d/1vJEdGCGKteEKtHPxpclVQvERXEdxiDKE/view?usp=sharing"className = "diff-color" >
-          Resume
-        </a>
-        <a href="#contact">Contact</a>
+        <a aria-label = "about-me" href="#about">About Me</a>
+        <a aria-label = "experience" href="#experience">Experience </a>
+        <a aria-label = "projects" href="#projects">Projects</a>
+        <a aria-label = "resume" href="https://drive.google.com/file/d/1vJEdGCGKteEKtHPxpclVQvERXEdxiDKE/view?usp=sharing">Resume </a>
+        <a aria-label = "contact" href="#contact">Contact</a>
       </NavStyle>
     );
 }

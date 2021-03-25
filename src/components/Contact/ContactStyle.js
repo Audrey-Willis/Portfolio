@@ -12,12 +12,15 @@ width:90%;
     border-bottom:5px double lightblue;
     border-left: 5px double lightblue;
     border-right: 5px double pink;
-    margin:5%;
     height:50vh;
     align-items:center;
     justify-content:space-around;
     width:60%;
-    padding:5%;
+    padding:10%;
+}
+h1{
+    color:pink;
+    font-size:2.5rem;
 }
 .links{
     display:flex;
@@ -28,46 +31,29 @@ width:90%;
 .links a{
     color:lightblue;
     text-decoration:none;
-    font-size:2rem;
+    font-size:1.5rem;
     text-align:center;
     border:5px double plum;
-    width:100%;
+    width:98%;
     padding:1%;
-    margin:2%;
+    margin-bottom:3%;
 }
 .links a:hover{
     transform:scale(1.1);
     color:pink;
 }
-h1{
-    color:pink;
-    font-size:2.5rem;
-}
-@media(max-width:800px){
+@media(max-width:500px){
+    .contact-box{
+        border:none;
+        padding:0%;
+        justify-content:center;
+    }
     h1{
         font-size:2rem;
     }
-    .links a{
-        font-size:1.5rem;
+    .contact-box a{
+        border:none;
     }
 }
 
-@media(max-width:500px){
-.contact-box{
-    width:98%;
-    padding:none;
-    margin:none;
-    border:none;
-
-}
-.links{
-    width:98%;
-    align-items:center;
-}
-.contact-box a{
-    width:98%;
-    font-size:1rem;
-}
-}
-
-`
+`;

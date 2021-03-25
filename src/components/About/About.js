@@ -1,6 +1,5 @@
 import React from "react";
 import {AboutStyle} from "./AboutStyle";
-import{Link} from "react-router-dom"
 
 
 function About(){
@@ -10,7 +9,7 @@ function About(){
           <div className="about-p">
             <h1>Who am I?</h1>
             <p>
-              My name is Audrey Willis. I'm a semi-young woman living in eastern
+              My name is Audrey Willis. I'm living in eastern
               Tennessee with my fiance and three great danes. I love challenges
               and puzzles. My favorite feeling in the world is the sense of
               accomplishment one feels when they've been struggling with a

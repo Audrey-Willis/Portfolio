@@ -1,10 +1,10 @@
 import styled from "styled-components";
 
 export const FooterStyled = styled.div`
-  width: 98%;
-  display:flex;
-  flex-direction:column;
-  align-items:center;
+    width: 98%;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
   .footer-nav{
     width:98%;
     text-align:center;
@@ -32,12 +32,13 @@ export const FooterStyled = styled.div`
     color:lightblue;
   }
   @media(max-width:500px){
-    .top-of-page a{
-      font-size:1.2rem;
-    }
-    .footer-nav a{
-      font-size:1rem;
-      width:90%;
-    }
+    margin-top:30%;
+  .top-of-page a{
+    font-size:1.2rem;
+  }
+  .footer-nav a{
+    font-size:1rem;
+    width:90%;
+  }
   }
 `;

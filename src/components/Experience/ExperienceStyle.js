@@ -2,10 +2,8 @@
 import styled from "styled-components";
 
 export const ExperienceStyle = styled.div`
-  font-family: "Gloria Hallelujah", cursive;
   margin: 2%;
   margin-bottom: 15%;
-
   .experience {
     display: flex;
     flex-direction: column;
@@ -47,22 +45,23 @@ export const ExperienceStyle = styled.div`
     width: 98%;
     margin-bottom: 10%;
   }
+  h2 {
+    font-size: 2.5rem;
+  }
   .experience-item h3 {
     font-size: 1.5rem;
-    color: lightblue;
-  }
-  .experience-item p {
-    font-size: 1.2rem;
     color: lightblue;
   }
   .experience-item h4 {
     font-size: 1.3rem;
   }
+  .experience-item p {
+    font-size: 1.2rem;
+    color: lightblue;
+  }
   .experience-item li {
     font-size: 1.2rem;
-  }
-  h2 {
-    font-size: 2.5rem;
+    text-align:left;
   }
   .skills {
     display: flex;
@@ -79,52 +78,54 @@ export const ExperienceStyle = styled.div`
     width: 98%;
     height: auto;
   }
+  
   @media (max-width: 800px) {
-    h1 {
-      font-size: 2.2rem;
-    }
-    h2 {
-      font-size: 2rem;
-    }
-    .experience-item p {
-      font-size: 1.3rem;
-    }
-    .experience-item li {
-      font-size: 1.3rem;
-    }
+  h1 {
+    font-size: 2.2rem;
   }
+  h2 {
+    font-size: 2rem;
+  }
+  .experience-item p {
+    font-size: 1.3rem;
+  }
+  .experience-item li {
+    font-size: 1.3rem;
+  }
+  }
+  
   @media (max-width: 500px) {
     width: 98%;
-
-    .education-section {
-      flex-direction:column;
-    }
-    .skills-section{
-      flex-direction:column;
-    }
-    .experience-item {
-      width:85%;
-      margin-bottom:5%;
-      border:none;
-    }
-    h1 {
-      font-size:1.3rem;
-    }
-    h2 {
-      display:none;
-    }
-   .experience-item h3{
-     font-size:1.3rem;
-     text-decoration:underline;
-   }
-   .experience-item h4{
-     font-size:1.2rem;
-   }
-    .experience-item p {
-      font-size: 0.9rem;
-    }
-    .experience-item li {
-      font-size: 0.9rem;
-    }
+  .education-section {
+    flex-direction: column;
+    align-items:center;
+  }
+  .skills-section {
+    flex-direction: column;
+    align-items:center;
+  }
+  .experience-item {
+    width: 85%;
+    margin-bottom: 5%;
+  }
+  h1 {
+    font-size: 1rem;
+  }
+  h2{
+    font-size:1.3rem;
+  }
+  .experience-item h3 {
+    font-size: 1.2rem;
+    text-decoration: underline;
+  }
+  .experience-item h4 {
+    font-size: 1rem;
+  }
+  .experience-item p {
+    font-size: 0.9rem;
+  }
+  .experience-item li {
+    font-size: 0.9rem;
+  }
   }
 `;

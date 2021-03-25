@@ -7,7 +7,7 @@ function Footer(){
     return(
         <FooterStyled>
             <div className = "top-of-page">
-                <a href = "#title-page">Top of page</a>
+                <a aria-label = "top-of-page" href = "#title-page">Top of page</a>
             </div>
             <div className = "footer-nav">
             <Nav/>

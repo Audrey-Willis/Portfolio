@@ -2,11 +2,11 @@ import styled from "styled-components";
 
 export const NavStyle = styled.div`
 
-display:flex;
-justify-content:space-evenly;
-align-items:center;
-padding:5%;
-with:90%;
+    display:flex;
+    justify-content:space-evenly;
+    align-items:center;
+    padding:5%;
+    width:90%;
 a{
     color:#333;
     text-decoration:none;
@@ -23,8 +23,8 @@ a{
     font-size:1rem;
     color:lavenderblush;
     margin:3%;
-    border:1px double pink;
-    width:90%;
+    border:1px double lightblue;
+    width:70%;
 }
 }
 
