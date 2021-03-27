@@ -8,7 +8,6 @@ import styled from "styled-components";
 import Contact from "./components/Contact/Contact";
 
 export const AppStyle = styled.div`
-  font-family: "Gloria Hallelujah", cursive;
   background-color: #333;
   color: plum;
   padding: 5%;
