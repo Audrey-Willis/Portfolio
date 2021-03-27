@@ -1,7 +1,6 @@
 import styled from "styled-components";
 
 export const StyledProjects = styled.div`
-    font-family: "Gloria Hallelujah", cursive;
     display: flex;
     flex-direction: column;
     margin-bottom: 15%;
