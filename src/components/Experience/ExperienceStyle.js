@@ -113,7 +113,7 @@ export const ExperienceStyle = styled.div`
       border-right: 5px solid plum;
       border-bottom: 5px solid pink;
       border-top: 5px solid pink;
-      height: 80vh;
+      height: 75vh;
       justify-content: center;
     }
     .education-section .experience-item {
