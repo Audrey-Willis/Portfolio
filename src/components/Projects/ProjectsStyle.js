@@ -123,30 +123,34 @@ export const StyledProjects = styled.div`
     border-bottom:5px double lightblue;
     margin-bottom: 20%;
   }
-  h1 {
-    font-size: 1.5rem;
+ .projects h1 {
+    font-size: 2rem;
     margin-bottom: 20%;
   }
   .project-img {
     width: 98%;
   }
   video {
-    width: 98%;
+    display:none;
+    height:.5vh;
   }
   .project-links a {
-    font-size: 0.9rem;
+    font-size: 1.2rem;
   }
   .project-links h2 {
-    font-size: 1.3rem;
+    font-size: 1.4rem;
   }
   .projects h3 {
-    font-size: 1rem;
+    font-size: 1.2rem;
   }
   .project p {
     font-size: 1rem;
   }
   h2 {
     font-size: 1.5rem;
+  }
+  .project-text{
+    width:98%;
   }
   }
 `;

@@ -10,8 +10,10 @@ export const HeaderStyled = styled.div`
   @media(max-width:500px){
     background-image:none;
     margin-bottom:10%;
+    padding:5%;
     width:98%;
     display:flex;
     flex-direction:column-reverse;
+    height:90vh;
   }
 `;

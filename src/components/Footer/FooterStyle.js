@@ -36,8 +36,11 @@ export const FooterStyled = styled.div`
   .top-of-page a{
     font-size:1.2rem;
   }
+  a{
+    font-size:1.2rem;
+  }
   .footer-nav a{
-    font-size:1rem;
+    font-size:1.2rem;
     width:90%;
   }
   }

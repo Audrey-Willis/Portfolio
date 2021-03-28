@@ -43,17 +43,19 @@ h1{
     color:pink;
 }
 @media(max-width:500px){
-    .contact-box{
-        border:none;
-        padding:0%;
-        justify-content:center;
-    }
-    h1{
-        font-size:2rem;
-    }
-    .contact-box a{
-        border:none;
-    }
+    margin:0%;
+.contact-box{
+    border:none;
+    padding:0%;
+    justify-content:center;
+}
+h1{
+    font-size:1.3rem;
+}
+.contact-box a{
+    border:none;
+    font-size:1.1rem;
+}
 }
 
 `;

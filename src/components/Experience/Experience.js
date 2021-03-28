@@ -5,13 +5,13 @@ function Experience(){
     return (
       <ExperienceStyle id = "experience">
         <div className = "experience">
-          <h1> My <span>Experience</span>-Education and Skills<span>:</span></h1>
+          <h1> My <span>Experience</span>-Education and Skills<span>.....</span></h1>
           <div className="education">
-            <h2><span>Education</span></h2>
+            <h2><em><span>EDUCATION</span></em></h2>
             <div className="education-section">
               <div className="experience-item">
                 <h3>Lambda School</h3>
-                <h4> Nine month program</h4>
+                <h4><em> Nine month program</em></h4>
                 <p>
                   The full stack development program is eight hours a day of
                   learning. A lecture in the mornings followed by a project in
@@ -24,7 +24,7 @@ function Experience(){
               </div>
                <div className="front-end-masters-education experience-item">
                 <h3>Frontend Masters</h3>
-                <h4> Various mini coding classes</h4>
+                <h4><em> Various mini coding classes</em></h4>
                 <p>
                   As a self learner, I spent a lot of time scouring the internet
                   for resources. One website that I found helpful was Frontend
@@ -40,7 +40,7 @@ function Experience(){
               </div>
               <div className="experience-item">
                 <h3>FreeCodeCamp</h3>
-                <h4>Mini coding classes</h4>
+                <h4><em>Mini coding classes</em></h4>
                 <p>Responsive web design certification(300 hours)</p>
                 <p>it included:</p>
                 <ul>
@@ -56,7 +56,7 @@ function Experience(){
               </div>
               </div>
               <div className="skills">
-                <h2><span>Skills</span></h2>
+                <h2><span>SKILLS</span></h2>
                 <div className="skills-section">
                   <div className="experience-item">
                     <h3>Front End Skills</h3>

@@ -49,14 +49,14 @@ export const AboutStyle = styled.div`
   }
   
   @media(max-width:500px){
-    .about-p h1{
-      font-size:1rem;
-    }
     .about-p{
       border:none;
     }
     .about-p p{
       font-size:.9rem;
+    }
+    .about-p h1{
+      font-size:1.3rem;
     }
   }
 `;
