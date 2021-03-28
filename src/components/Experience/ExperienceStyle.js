@@ -109,14 +109,14 @@ export const ExperienceStyle = styled.div`
       width: 80%;
       margin-bottom: 10%;
       align-items: center;
-      border-left: 5px solid lightblue;
-      border-right: 5px solid plum;
-      border-bottom: 5px solid pink;
-      border-top: 5px solid pink;
+      border-left: 2px solid lightblue;
+      border-right:2px solid plum;
+      border-bottom: 2px solid pink;
+      border-top: 2px solid pink;
       height: 80vh;
       justify-content: center;
     }
-    .skills-section .experience-item:{
+    .skills-section .experience-item{
       height:60vh;
     }
     .experience h1 {
