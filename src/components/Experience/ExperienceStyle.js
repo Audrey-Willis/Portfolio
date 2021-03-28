@@ -113,11 +113,11 @@ export const ExperienceStyle = styled.div`
       border-right: 5px solid plum;
       border-bottom: 5px solid pink;
       border-top: 5px solid pink;
-      height: 75vh;
+      height: 80vh;
       justify-content: center;
     }
-    .education-section .experience-item {
-      align-items: center;
+    .skills-section .experience-item:{
+      height:60vh;
     }
     .experience h1 {
       font-size: 1.3rem;
