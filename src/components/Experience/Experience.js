@@ -63,22 +63,24 @@ function Experience(){
                     <ul>
                       <li>HTML5</li>
                       <li>CSS3</li>
+                      <li>JS</li>
                       <li>React</li>
                       <li>Styled Components</li>
-                      <li>Some Redux</li>
-                      <li>JS</li>
-                      <li>Responsive Design</li>
-                      <li>Accessibility</li>
+                      <li>Redux</li>
+                      <li>Using API's</li>
+                      <li>Less/Sass</li>
                     </ul>
                </div>
                 <div className="experience-item">
                   <h3>Other</h3>
                   <ul>
                     <li>Git</li>
-                    <li>Node/Npm</li>
+                    <li>Npm/Yarn</li>
                     <li>Developer Tools</li>
                     <li>Web performance/optimization</li>
-                    <li>Api Requests</li>
+                    <li>DOM manipulation</li>
+                    <li>Responsive design</li>
+                    <li>Accessability</li>
                   </ul>
                 </div>
                <div className="experience-item">
