@@ -18,7 +18,7 @@ function Projects(){
               </div>
               <div className="image-and-text">
                 <div className="project-img">
-                  <video controls>
+                  <video playsInline>
                     <source src="https://res.cloudinary.com/dcninbtqv/video/upload/v1616454567/simplescreenrecorder_ovvuns.webm"/>
                   </video>
                 </div>
@@ -62,7 +62,7 @@ function Projects(){
               </div>
               <div className="image-and-text">
                 <div className="project-img">
-                  <video controls>
+                  <video playsInline>
                     <source src="https://res.cloudinary.com/dcninbtqv/video/upload/v1616530526/ezgif.com-gif-maker_3_ccrg9m.webm" />
                   </video>
                 </div>
@@ -107,7 +107,7 @@ function Projects(){
               </div>
               <div className="image-and-text">
                 <div className="project-img">
-                  <video controls>
+                  <video playsInline>
                     <source src="https://res.cloudinary.com/dcninbtqv/video/upload/v1616530275/ezgif.com-gif-maker_2_voychx.webm" />
                   </video>
                 </div>
@@ -151,7 +151,7 @@ function Projects(){
               </div>
               <div className="image-and-text">
                 <div className="project-img">
-                  <video controls>
+                  <video playsInline>
                     <source src="https://res.cloudinary.com/dcninbtqv/video/upload/v1616455008/ezgif.com-gif-maker_1_iojbdg.webm"/>
                   </video>
                 </div>
@@ -189,7 +189,7 @@ function Projects(){
               </div>
               <div className="image-and-text">
                 <div className="project-img">
-                  <video controls>
+                  <video playsInline>
                     <source src = "https://res.cloudinary.com/dcninbtqv/video/upload/v1616534005/Screencast_2020-12-18_20_59_20_p7vq0k.webm"/>
                   </video>
                 </div>
@@ -224,7 +224,7 @@ function Projects(){
               </div>
               <div className="image-and-text">
                 <div className="project-img">
-                  <video controls>
+                  <video playsInline>
                     <source src = "https://res.cloudinary.com/dcninbtqv/video/upload/v1616534204/Screencast_2020-12-18_21_18_35_rmyp9c.webm"/>
                   </video>
                 </div>
