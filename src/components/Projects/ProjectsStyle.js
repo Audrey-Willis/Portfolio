@@ -130,9 +130,13 @@ export const StyledProjects = styled.div`
   .project-img {
     width: 98%;
   }
-  video {
+  video{
     display:none;
-    height:.5vh;
+    height:.2vh;
+  }
+  .project-links{
+    flex-direction:column;
+    margin:1%;
   }
   .project-links a {
     font-size: 1.2rem;
